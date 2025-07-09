@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>界址点成果表批量整理导出工具</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>界址点成果表批量整理导出工具</h2>
+    <div class="row">
+      <label>输入文件夹：</label>
+      <button id="select-excel-dir">选择文件夹</button>
+      <span id="excel-dir-path" class="path-display"></span>
+    </div>
+    <div class="row">
+      <label>输出文件夹：</label>
+      <button id="select-output-dir">选择文件夹</button>
+      <span id="output-dir-path" class="path-display"></span>
+    </div>
+    <div class="row btn-group">
+      <button id="start-btn">开始处理</button>
+      <button id="stop-btn">停止</button>
+      <button id="clear-log">清空日志</button>
+    </div>
+    <div class="log-section">
+      <label>处理日志：</label>
+      <div class="log-window" id="log-window"></div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html> 
